@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    background-image: url(gif.gif);
+    background-color: #FFF4E0;
+    color: #B46060;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B46060;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #B2A59B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.activity-choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 13px solid #4d4d4db2;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.activity-choice:hover {
+    box-shadow: 0 0 20px #4D4D4D;
+}
+
+.image-container {
+    width: 300px; 
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 70%;
+    height: auto; 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-left: 40px; 
+    margin-right: 40px;
+    transition: transform 0.3s; /* dis for the hover effect */
+}
+
+img:hover {
+    transform: scale(1.1); /* scale up the image on hover */
+}
+
+.content {
+    flex-grow: 1;
+}
+
+h2 {
+    color: #607274;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #B2A59B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #c46b42cc;
+}
+
+footer {
+    background-color: #B46060;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #FAEED1;
+}
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the list items horizontally */
+}
+
+.navlist li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navlist a:hover {
+    text-decoration: underline;
+}
